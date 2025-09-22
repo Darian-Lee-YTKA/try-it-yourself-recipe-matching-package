@@ -53,6 +53,4 @@ def find_best_recipe(person, recipes):
             best_recipe = recipe
     return f"your best recipe is {best_recipe.name} with a score of {best_score}"
 
-for person in people:
-    print("Hello, ", person.name)
-    print(find_best_recipe(person, recipes))
+
