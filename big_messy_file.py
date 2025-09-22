@@ -33,12 +33,12 @@ class Person:
     def __str__(self):
         return f"{self.name}: {self.recipes}"
 
-people = [
+people = [ # band members from the incredibly awesome band "Nervy" 😎
     Person("Zhenya Milkovskiy", ["eggs", "flour", "milk", "sugar"], 30),
     Person("Dima Dudka", ["chicken", "curry powder", "coconut milk", "onion"], 60),
     Person("Anton Nizhenko", ["beef", "carrots"], 60),
     Person("Vlad Zaychenko", ["lettuce", "tomato"], 15),
-Person("🦹🏻‍♂️ PROFESSOR X 🦹🏻‍♂️", ["evil intentions", "chaotic energy", "DESIRE TO DESTROY", "ABILITY TO CONTROL TIME"], 666),
+    Person("🦹🏻‍♂️ PROFESSOR X 🦹🏻‍♂️", ["evil intentions", "chaotic energy", "DESIRE TO DESTROY", "ABILITY TO CONTROL TIME"], 666),
 ]
 def find_best_recipe(person, recipes):
     best_recipe = None
